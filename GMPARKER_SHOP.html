@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMPARKER SHOP</title>
+    <style>
+        :root {
+            --neon-blue: #00d2ff;
+            --neon-dark: #3a7bd5;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid var(--neon-blue);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            letter-spacing: 5px;
+            text-shadow: 0 0 10px var(--neon-blue);
+            margin: 0;
+        }
+
+        .tagline {
+            color: var(--neon-blue);
+            font-weight: bold;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            border-left: 4px solid var(--neon-blue);
+            padding-left: 15px;
+            color: var(--neon-blue);
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .item:last-child { border-bottom: none; }
+
+        .item-info { flex: 1; }
+
+        .price { font-weight: bold; color: #4ade80; }
+
+        /* Neon Blue Gradient Button */
+        .btn-order {
+            background: linear-gradient(45deg, #3a7bd5, #00d2ff);
+            color: white;
+            text-decoration: none;
+            padding: 8px 18px;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            transition: 0.3s;
+            text-transform: uppercase;
+            box-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+            display: inline-block;
+        }
+
+        .btn-order:hover {
+            box-shadow: 0 0 20px rgba(0, 210, 255, 0.8);
+            transform: translateY(-2px);
+        }
+
+        .payment-info {
+            background: #2d3748;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .social-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .social-btn {
+            background: #334155;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .social-btn:hover { background: var(--neon-blue); }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-bottom: 30px;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>GMPARKER SHOP</h1>
+            <p class="tagline">⚡ CEPAT - MURAH - BERKUALITAS ⚡</p>
+        </header>
+
+        <!-- RENDER & EDIT -->
+        <section>
+            <h2>✨ Render & Edit</h2>
+            <div class="item">
+                <div class="item-info">Render Minecraft <span class="price">5K</span></div>
+                <div>
+                    <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 1</a>
+                    <a href="https://wa.me/+6285138507266?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 2</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-info">Render Minecraft Edit <span class="price">4K</span></div>
+                <div>
+                    <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 1</a>
+                    <a href="https://wa.me/+6285138507266?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 2</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-info">🎬 JJ Render <span class="price">3K</span></div>
+                <div>
+                    <a href="https://wa.me/+6285849090562?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 1</a>
+                    <a href="https://wa.me/+6283837104931?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 2</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-info">Render Roblox <span class="price">5K</span></div>
+                <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order Now</a>
+            </div>
+            <div class="item">
+                <div class="item-info">🖼️ Edit Banner YouTube <span class="price">5K</span></div>
+                <div>
+                    <a href="https://wa.me/+6285138507266?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 1</a>
+                    <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 2</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-info">💎 Edit Logo <span class="price">5K</span></div>
+                <div>
+                    <a href="https://wa.me/+6285849090562?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 1</a>
+                    <a href="https://wa.me/+6283837104931?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order 2</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- MODELLING & SKIN -->
+        <section>
+            <h2>🏗️ Modelling & Skin</h2>
+            <div class="item">
+                <div class="item-info">Modelling <span class="price">10K</span></div>
+                <a href="https://wa.me/+6283194630764?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order Now</a>
+            </div>
+            <div class="item">
+                <div class="item-info">👕 Custom Skin <span class="price">5K</span></div>
+                <div>
+                    <a href="https://wa.me/+6285138507266" class="btn-order">Order 1</a>
+                    <a href="https://wa.me/+6285849090562" class="btn-order">Order 2</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-info">🔄 Remake Skin <span class="price">4K</span></div>
+                <a href="https://wa.me/+6285138507266" class="btn-order">Order Now</a>
+            </div>
+        </section>
+
+        <!-- MARKETPLACE -->
+        <section>
+            <h2>🗺️ Marketplace Minecraft</h2>
+            <div class="item">
+                <div class="item-info">Map Marketplace <span class="price">80K</span></div>
+                <a href="https://wa.me/+6285849090562" class="btn-order">Order Now</a>
+            </div>
+            <div class="item">
+                <div class="item-info">⚙️ Add-on Marketplace <span class="price">50K</span></div>
+                <a href="https://wa.me/+6285849090562" class="btn-order">Order Now</a>
+            </div>
+        </section>
+
+        <!-- BUILD PROJECT -->
+        <section>
+            <h2>🏠 Build Project</h2>
+            <div class="item">
+                <div class="item-info">Build Kecil <span class="price">10K</span></div>
+                <a href="https://wa.me/+62895426511826" class="btn-order">Order Now</a>
+            </div>
+            <div class="item">
+                <div class="item-info">🏢 Build Sedang <span class="price">20K</span></div>
+                <a href="https://wa.me/+62895426511826" class="btn-order">Order Now</a>
+            </div>
+            <div class="item">
+                <div class="item-info">🏰 Build Besar <span class="price">30K</span></div>
+                <a href="https://wa.me/+62895426511826" class="btn-order">Order Now</a>
+            </div>
+        </section>
+
+        <!-- PAYMENT -->
+        <section>
+            <h2>💳 Metode Pembayaran</h2>
+            <div class="payment-info">
+                <p>📱 <strong>DANA / GOPAY</strong></p>
+                <p style="font-size: 1.5rem; color: var(--neon-blue); margin: 10px 0;">085849090562</p>
+                <p>📧 Email: gmparkershop123@gmail.com</p>
+            </div>
+        </section>
+
+        <!-- COMMUNITY -->
+        <section>
+            <h2>🌐 Join Community</h2>
+            <div class="social-links">
+                <a href="https://whatsapp.com/channel/0029Vb7e9FM9WtC2gE3Zhs03" class="social-btn">📢 Saluran WA</a>
+                <a href="https://chat.whatsapp.com/JRyK2yAoM4v2LmIjIqHnbg" class="social-btn">👥 Grup Chat</a>
+                <a href="https://tiktok.com/@gmparker.shop2" class="social-btn">📱 TikTok</a>
+                <a href="https://www.youtube.com/@GMPARKERSHOP" class="social-btn">🎥 YouTube</a>
+                <a href="https://www.instagram.com/gmparkershop" class="social-btn">📷 Instagram</a>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2024 GMPARKER SHOP. All Rights Reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
